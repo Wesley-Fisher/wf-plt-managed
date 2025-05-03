@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt
 
-from SubplotManager import SubplotManager
-from LayoutSettings import LayoutSettings
+from .SubplotManager import SubplotManager
+from .LayoutSettings import LayoutSettings
 
 class PlotManager:
     def __init__(self, layout, **kwargs):
